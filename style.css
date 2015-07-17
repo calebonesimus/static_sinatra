@@ -1,0 +1,447 @@
+
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Helvetica;
+  position: relative;
+  height: 100%;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+header {
+  width: 100%;
+  height: 500px;
+  background-image: url('images/wave.jpg');
+  background-size: 100% 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+nav {
+  padding: 30px;
+  position: relative;
+  margin-top: -30px;
+}
+
+.nav-right {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+.nav-right h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-right ul {
+  list-style-type: none;
+}
+
+.nav-right ul li {
+  display: inline;
+  margin: 10px;
+}
+
+.nav-right ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.logo h1 {
+  font-size: 6em;
+  margin: 0px;
+  color: #000;
+}
+
+.logo p {
+  margin: 0px;
+  color: #000;
+}
+
+main {
+  margin: 50px;
+  position: relative;
+  border-bottom: 1px solid #888;
+}
+
+article {
+  position: relative;
+  width: 55%;
+  display: inline-block;
+  height: 100%;
+  padding: 50px;
+}
+
+article h2 {
+  font-size: 3.2em;
+  margin: 0px;
+}
+
+.author-photo {
+  background-image: url("images/anya.jpg");
+  background-size: 130%;
+  transform: rotate(90deg);
+  border-radius: 100px;
+  display: inline-block;
+}
+
+.small-photo {
+  width: 25px;
+  height: 25px;
+}
+
+.large-photo {
+  width: 100px;
+  height: 100px;
+}
+
+.tiny-author-info {
+  list-style-type: none;
+  font-size: 0.8em;
+  margin-left: 0px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.tiny-author-info li {
+  margin: 0px;
+  display: inline;
+}
+
+.tiny-author-info li+li {
+  margin-left: 15px;
+}
+
+article h3 {
+  border-left: 2px solid #777;
+  line-height: 50px;
+  padding-left: 20px;
+}
+
+article p {
+  margin-bottom: 30px;
+}
+
+.bottom-buttons {
+
+}
+
+.bottom-buttons ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.bottom-buttons ul li {
+  margin: 0px;
+  padding: 6px;
+  background-color: #888;
+  color: #fff;
+  display: inline;
+  font-size: 0.8em;
+}
+
+.bottom-buttons ul li+li {
+  margin-left: 15px;
+}
+
+aside {
+  position: absolute;
+  width: 25%;
+  padding: 30px;
+  display: inline-block;
+}
+
+.author-info {
+  text-align: center;
+}
+
+.author-info p {
+  margin: 0px;
+  font-size: 1.3em;
+}
+
+.author-info ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.author-info ul li {
+  display: inline;
+  font-size: 0.8em;
+}
+
+.author-info ul li+li {
+  padding-left: 3px;
+  border-left: 1px solid #888;
+}
+
+.ad {
+  width: 100%;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.ad img {
+  width: 100%;
+  position: relative;
+}
+
+.side-bar-content h4 {
+  margin-bottom: 5px;
+  font-size: 1.3em;
+}
+
+.side-bar-content p {
+  margin: 0px;
+}
+
+.bottom-content {
+  text-align: center;
+  margin: auto;
+}
+
+.bottom-content h3 {
+  font-size: 3.5em;
+}
+
+/*
+.post-pictures {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  padding: 0px;
+}
+
+.post {
+  margin: 0px;
+  padding: 0px;
+  width: 24%;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}*/
+
+/*.post p {
+  position: absolute;
+  font-size: 1.5em;
+  color: #fff;
+  bottom: 10px;
+  left: 40px;
+}*/
+
+
+.flex-content {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  list-style-type: none;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+.flex-content li h2 {
+  font-size: 3em;
+}
+
+.flex-item {
+  width: 24%;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+}
+
+.flex-item img {
+  height: 100%;
+}
+
+.flex-item p {
+  position: absolute;
+  color: #fff;
+  left: 10px;
+  bottom: 10px;
+}
+
+.beach {
+  background-image: url("images/beach.jpg");
+}
+
+.beer {
+  background-image: url("images/beer.jpg");
+}
+
+.foam {
+  background-image: url("images/foam.jpg");
+}
+
+.beach-chairs {
+  background-image: url("images/beach-chairs.jpg");
+}
+
+footer {
+  background-color: #1f5594;
+  position: relative;
+  width: 100%;
+  height: 70px;
+  padding-top: 40px;
+}
+
+.copyright {
+  position: absolute;
+  color: #fff;
+  top: 30%;
+}
+
+.footer-nav {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+}
+
+.footer-nav li {
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+
+.footer-nav li+li {
+  border-left: 1px solid #fff;
+  padding-left: 3px;
+}
+
+.footer-nav li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+
+  .wrapper {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  header {
+    height: 320px;
+    background-size: 600px;
+    background-repeat: no-repeat;
+  }
+
+  .nav-left {
+    visibility: hidden;
+  }
+
+  .nav-right {
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+
+  .logo {
+    position: relative;
+    margin: 0px;
+    overflow: hidden:
+  }
+
+  .logo h1 {
+    font-size: 3em;
+  }
+
+  .logo p {
+    font-size: 2em;
+  }
+
+  .main {
+    margin: 0px;
+  }
+
+  article {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 60px;
+    padding: 0px;
+  }
+
+  aside {
+    width: 100%;
+    position: relative;
+    padding: 0px;
+  }
+
+  .ad {
+    margin-bottom: -140px;
+  }
+
+  .side-bar-content {
+    visibility: hidden;
+  }
+
+  .bottom-content{
+    padding: 50px;
+  }
+
+  .flex-content {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .flex-item {
+    width: 100%;
+    height: 300px;
+    margin-left: -25px;
+  }
+
+  footer {
+    height: 130px;
+  }
+
+  .copyright {
+    text-align: center;
+    width: 100%;
+    position: relative;
+  }
+
+  .footer-nav {
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+
+
+
+
+
+}
