@@ -1,0 +1,127 @@
+.jumbotron {
+    position: relative;
+    background: #000 url("/images/wave.jpg") center center;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.top-buffer {
+  margin-top: 80px;
+}
+
+.custom-nav ul {
+  list-style-type: none;
+}
+
+  .custom-nav li {
+    display: inline;
+    font-size: 2em;
+  }
+
+  .custom-nav li+li {
+    padding-left: 10px;
+  }
+
+.author-photo {
+  background-image: url("/images/anya.jpg");
+  background-size: 130%;
+  transform: rotate(90deg);
+  border-radius: 100px;
+  display: inline-block;
+}
+
+.small-photo {
+  width: 25px;
+  height: 25px;
+}
+
+.large-photo {
+  width: 100px;
+  height: 100px;
+}
+
+.tiny-author-info {
+  list-style-type: none;
+  font-size: 0.8em;
+  margin-left: 0px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+  .tiny-author-info li {
+    margin: 0px;
+    display: inline;
+  }
+
+  .tiny-author-info li+li {
+    margin-left: 15px;
+  }
+
+.author-info {
+  text-align: center;
+}
+
+  .author-info p {
+    margin: 0px;
+    font-size: 1.3em;
+  }
+
+  .author-info ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .author-info ul li {
+    display: inline;
+    font-size: 0.8em;
+  }
+
+  .author-info ul li+li {
+    padding-left: 3px;
+    border-left: 1px solid #888;
+  }
+
+.ad {
+  width: 100%;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+  .ad img {
+    width: 100%;
+    position: relative;
+  }
+
+.side-bar-content h4 {
+  margin-bottom: 5px;
+  font-size: 1.3em;
+}
+
+.side-bar-content p {
+  margin: 0px;
+}
+
+.custom-footer {
+  height: 80px;
+  background-color: #1d6090;
+  padding-top: 30px;
+  color: white;
+  font-size: 1.2em;
+}
+
+.footer-nav ul {
+  list-style-type: none;
+}
+
+.footer-nav li {
+  display: inline;
+}
+
+.footer-nav li+li {
+  padding-left: 3px;
+  border-left: 1px solid white;
+}
