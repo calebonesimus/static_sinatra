@@ -25,11 +25,10 @@
   }
 
 .author-photo {
-  background-image: url("/images/anya.jpg");
   background-size: 130%;
-  transform: rotate(90deg);
   border-radius: 100px;
   display: inline-block;
+  overflow: hidden;
 }
 
 .small-photo {
@@ -101,9 +100,6 @@
   font-size: 1.3em;
 }
 
-.side-bar-content p {
-  margin: 0px;
-}
 
 .custom-footer {
   height: 80px;

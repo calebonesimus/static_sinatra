@@ -4,7 +4,7 @@
     <div class="col-md-7">
       <h2>Super exciting things!</h2>
       <ul class="tiny-author-info">
-        <li><div class="author-photo small-photo"></div><%= @author_info[:name] %></li>
+        <li><img src=<%= @author_info[:photo] %> class="small-photo author-photo" /> <%= @author_info[:name] %></li>
         <li><%= @author_info[:date_published] %></li>
       </ul>
       <p>Cupcake ipsum dolor sit. Amet I love liquorice jujubes pudding croissant I love pudding. Apple pie macaroon toffee jujubes pie tart cookie applicake caramels. Halvah macaroon I love lollipop. Wypas I love pudding brownie cheesecake tart jelly-o. Bear claw cookie chocolate bar jujubes toffee.</p>
@@ -20,7 +20,7 @@
     </div>
     <div class="col-md-3 col-md-offset-2">
       <div class="author-info">
-        <div class="author-photo large-photo"></div>
+        <img src=<%= @author_info[:photo] %> class="large-photo author-photo" />
         <p><%= @author_info[:name] %></p>
         <ul>
           <li>Twitter</li>
