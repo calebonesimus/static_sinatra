@@ -1,27 +1,32 @@
 require 'sinatra'
 
-# Goes to main article
+# Choose a lipsum article
 get '/' do
-  @author_info = {name: "Anya",
-                  date_published: "July 12, 2015",
-                  photo: "/images/anya.jpg"}
   erb :index
 end
 
+# Goes to cupcake article
+get '/cupcake' do
+  @author_info = {name: "Anya",
+                  date_published: "July 12, 2015",
+                  photo: "/images/anya.jpg"}
+  erb :cupcake
+end
+
 # Goes to a similar article with different author data
-get '/second-article' do
+get '/standard' do
   @author_info = {name: "Caleb",
                   date_published: "July 20, 2015",
                   photo: "/images/beer.jpg"}
   @headline = "Change me with the URL!"
-  erb :second_article
+  erb :standard
 end
 
 # Second article with sidebar headline parameter, for fun.
-get '/second-article/:headline' do |headline|
+get '/standard/:headline' do |headline|
   @author_info = {name: "Caleb",
                   date_published: "July 20, 2015",
                   photo: "/images/beer.jpg"}
   @headline = headline
-  erb :second_article
+  erb :standard
 end
