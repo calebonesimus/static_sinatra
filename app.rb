@@ -14,19 +14,10 @@ get '/cupcake' do
 end
 
 # Goes to a similar article with different author data
-get '/standard' do
+get '/standard/?:headline?' do
   @author_info = {name: "Caleb",
                   date_published: "July 20, 2015",
                   photo: "/images/beer.jpg"}
-  @headline = "Change me with the URL!"
-  erb :standard
-end
-
-# Second article with sidebar headline parameter, for fun.
-get '/standard/:headline' do |headline|
-  @author_info = {name: "Caleb",
-                  date_published: "July 20, 2015",
-                  photo: "/images/beer.jpg"}
-  @headline = headline
+  @headline = params[:headline] || "Change me with the URL!"
   erb :standard
 end
